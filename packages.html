@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Packages — Aura Travel & Tours</title>
+  <meta name="description" content="Featured holiday packages from Aura Travel & Tours — Dubai, Mauritius, Zanzibar, Cape Town and South African safaris.">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/styles.css">
+  <script defer src="/js/main.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="/index.html"><img src="/assets/logo.png" alt="Aura Travel & Tours logo" class="logo"></a>
+      <nav class="main-nav" id="mainNav">
+        <a href="/index.html">Home</a>
+        <a href="/packages.html" class="active">Packages</a>
+        <a href="/visa.html">Visa Assistance</a>
+        <a href="/corporate.html">Corporate</a>
+        <a href="/about.html">About</a>
+        <a href="/contact.html" class="cta">Contact</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Open menu">☰</button>
+    </div>
+  </header>
+
+  <main class="container" style="padding:2rem 0">
+    <h1>Featured Packages</h1>
+    <p class="lede">Luxury and value-driven packages designed for South African travellers.</p>
+
+    <!-- Package cards -->
+    <section class="grid-3" style="gap:1rem">
+      <article class="package-card">
+        <img src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1200&q=60" alt="Dubai Escape">
+        <div class="package-body">
+          <h3>Dubai Escape Package</h3>
+          <p class="price">From: <strong>R12,999</strong> (placeholder)</p>
+          <p>4 nights in a 5-star hotel, desert safari, city tour and return flights from Johannesburg.</p>
+          <a class="btn btn-primary" href="/contact.html#quote" rel="noopener">Request Quote</a>
+        </div>
+      </article>
+
+      <article class="package-card">
+        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=1200&q=60" alt="Mauritius Getaway">
+        <div class="package-body">
+          <h3>Mauritius Luxury Getaway</h3>
+          <p class="price">From: <strong>R18,499</strong> (placeholder)</p>
+          <p>All-inclusive resort stay, island tour, water sports and private transfers.</p>
+          <a class="btn btn-primary" href="/contact.html#quote">Request Quote</a>
+        </div>
+      </article>
+
+      <article class="package-card">
+        <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=60" alt="Zanzibar Beach Holiday">
+        <div class="package-body">
+          <h3>Zanzibar Beach Holiday</h3>
+          <p class="price">From: <strong>R14,299</strong> (placeholder)</p>
+          <p>Beach resort stay with spice tour, Stone Town visit and optional diving excursions.</p>
+          <a class="btn btn-primary" href="/contact.html#quote">Request Quote</a>
+        </div>
+      </article>
+    </section>
+
+    <section class="grid-2 mt-20">
+      <article class="package-card">
+        <img src="https://images.unsplash.com/photo-1528909514045-2fa4ac7a08ba?auto=format&fit=crop&w=1200&q=60" alt="Cape Town Explorer">
+        <div class="package-body">
+          <h3>Cape Town Explorer</h3>
+          <p class="price">From: <strong>R7,499</strong> (placeholder)</p>
+          <p>Table Mountain, Winelands day tour, scenic drives and curated activities.</p>
+          <a class="btn btn-primary" href="/contact.html#quote">Request Quote</a>
+        </div>
+      </article>
+
+      <article class="package-card">
+        <img src="https://images.unsplash.com/photo-1508264165352-258a6e00b6d2?auto=format&fit=crop&w=1200&q=60" alt="South African Safari Adventure">
+        <div class="package-body">
+          <h3>South African Safari Adventure</h3>
+          <p class="price">From: <strong>R20,999</strong> (placeholder)</p>
+          <p>Kruger Park safari with guided game drives and luxury lodge accommodation.</p>
+          <a class="btn btn-primary" href="/contact.html#quote">Request Quote</a>
+        </div>
+      </article>
+    </section>
+
+    <section style="margin-top:2rem">
+      <h2>Custom Packages</h2>
+      <p>We also craft bespoke itineraries. Use the Request Quote form to tell us your preferences and travel dates.</p>
+    </section>
+  </main>
+
+  <a class="whatsapp-float" href="https://wa.me/+27100000000" target="_blank" aria-label="Chat on WhatsApp">💬</a>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="brand-col">
+        <img src="/assets/logo.png" alt="Aura Travel & Tours logo" class="logo-sm">
+        <p>Premium travel services based in Johannesburg, South Africa.</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="/packages.html">Packages</a></li>
+          <li><a href="/visa.html">Visa Assistance</a></li>
+          <li><a href="/corporate.html">Corporate</a></li>
+          <li><a href="/contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p>Johannesburg, South Africa</p>
+        <p>Phone: <a href="tel:+27100000000">+27 10 000 0000</a></p>
+        <p>Email: <a href="mailto:info@AuraTravelandTours.onmicrosoft.com">info@AuraTravelandTours.onmicrosoft.com</a></p>
+      </div>
+      <div>
+        <h4>Newsletter</h4>
+        <form data-netlify="true" name="newsletter" method="POST">
+          <input type="hidden" name="form-name" value="newsletter">
+          <input type="email" name="email" placeholder="Email address" required>
+          <button class="btn btn-primary" type="submit">Subscribe</button>
+        </form>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
